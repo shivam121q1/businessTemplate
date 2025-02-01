@@ -18,8 +18,8 @@ export const Header = ({brandName,Tagline}:HeaderProps) => {
         backgroundImage:
           'url(https://res.cloudinary.com/drcoe5pnl/image/upload/v1738307581/nextjs_uploads/ztzwj0yrouwiywelulov.webp)',
       }}>
-      <div className="intro relative z-10 text-white" >
-        <div className="overla  py-24">
+      <div className="intro relative z-10 text-white " >
+        <div className="w-full overflow-y-auto  py-24">
           <div className="container mx-auto px-4">
             <div className="flex justify-center">
               <div className="text-center flex flex-col">

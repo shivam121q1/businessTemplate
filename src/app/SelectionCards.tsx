@@ -16,7 +16,7 @@ const SectionNetworkCards = () => (
         description="Experience unmatched coverage and lightning-fast speeds on America’s best network. Stay connected anywhere with reliable service you can trust."
         buttonText="Check Coverage"
         imageSrc={img1}
-        classs="flex flex-col md:flex-row-reverse"
+        classs="flex flex-col md:flex-row-reverse ml-20"
       />
     </div>
 );

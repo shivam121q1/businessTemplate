@@ -40,7 +40,7 @@ function HomeComponent() {
   }, [id]);
 
   return (
-    <div className="w-11/12 max-w-maxContent mx-auto">
+    <div className="flex flex-col">
       <Navigation logoUrl={outputData?.logoURL} />
       <Header brandName={brandOutput?.brandName} Tagline={outputData?.tagline} />
       <AboutUs Tagline={outputData?.tagline} description={outputData?.description} />
@@ -48,7 +48,7 @@ function HomeComponent() {
       <SectionPricingPlans />
       <SectionNetworkCards />
       <Team data={team} />
-      <Contact contactInfo={"dknd"} data={brandOutput?.brandName} brandName={brandOutput?.brandName} />
+      <Contact  brandName={brandOutput?.brandName} />
     </div>
   );
 }

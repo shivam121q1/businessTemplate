@@ -30,7 +30,7 @@ export default function Navigation({logoUrl}:NavigationProps) {
   }, [id]);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md  z-50">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-md  z-50 h-16">
       <div className="container mx-auto p-4 flex justify-between items-center">
         <div>
           <Link href="#page-top" className="text-2xl font-bold text-blue-600 hover:text-blue-800">
