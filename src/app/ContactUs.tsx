@@ -131,7 +131,6 @@ export const Contact = ({ brandName }: ContactUsFormProps) => {
         transition={{ duration: 0.8 }}
         className="text-4xl font-extrabold mt-8"
       >
-        @Info{brandName}
       </motion.h1>
     </div>
   );

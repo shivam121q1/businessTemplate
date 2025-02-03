@@ -1,5 +1,6 @@
 "use client";
 
+import { formatText, getSubstringAfterLastDoubleAsterisk } from "@/utils/function";
 import React from "react";
 
 interface AboutUsProps{
@@ -25,10 +26,10 @@ const  AboutUs = ({Tagline , description}:AboutUsProps) => {
           </div>
           <div>
             <h2 className="text-4xl font-bold mb-4">About Us</h2>
-            <h3 className="text-2xl text-indigo-600 mb-2">{Tagline}</h3>
-            <h4 className="text-lg text-gray-700">
-              {description}
-            </h4>
+          {Tagline &&   <h3 className="text-2xl text-indigo-600 mb-2">{formatText(Tagline)}</h3> }
+           {description &&  <h4 className="text-lg text-gray-700">
+              {getSubstringAfterLastDoubleAsterisk(description)}
+            </h4>}
           </div>
         </div>
       </div>

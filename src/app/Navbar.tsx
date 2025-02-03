@@ -35,8 +35,8 @@ export default function Navigation({logoUrl}:NavigationProps) {
         <div>
           <Link href="#page-top" className="text-2xl font-bold text-blue-600 hover:text-blue-800">
           {logoUrl && <Image
-            height={50}
-            width={60}
+            height={70}
+            width={80}
             src={logoUrl}
             alt="logo"
           />}
